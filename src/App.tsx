@@ -1,10 +1,5 @@
-import ToDoHome from './ToDoHome/ToDoHome'
-function App() {
-  return (
-    <>
-      <ToDoHome />
-    </>
-  )
-}
+import ToDoList from '@/components/ToDoList'
+
+const App = () => <ToDoList />
 
 export default App
