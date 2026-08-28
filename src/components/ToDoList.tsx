@@ -75,13 +75,13 @@ const ToDoList = () => {
           <ShinyText
             className="cursor-default text-4xl font-extrabold text-gray-900 sm:text-5xl"
             text="ToDo List"
-            speed={3}
+            speed={5}
             delay={1}
             color="#101828"
             shineColor="#476bb3"
             spread={120}
             direction="left"
-            yoyo={true}
+            yoyo={false}
             pauseOnHover={false}
             disabled={false}
           />
@@ -89,7 +89,7 @@ const ToDoList = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1, ease: 'easeOut' }}
-            className="mx-auto max-w-2xl py-6 text-xl text-gray-500 sm:text-3xl"
+            className="mx-auto max-w-2xl py-6 text-xl text-gray-500"
           >
             Organize seus deveres e compromissos com a ToDo List
           </motion.p>

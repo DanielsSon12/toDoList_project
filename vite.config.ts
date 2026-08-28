@@ -17,4 +17,5 @@ export default defineConfig({
     tailwindcss(),
     babel({ presets: [reactCompilerPreset()] }),
   ],
+  base: '/toDoList_project',
 })
